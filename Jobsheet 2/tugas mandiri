@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio - Dionisius Tobias</title>
+</head>
+
+<body>
+    <header>
+        <h1>Dionisius Tobias</h1>
+        <nav>
+            <a href="index.html">Beranda</a> |
+            <a href="#tentang">Tentang Saya</a> |
+            <a href="#hobi">Keahlian &amp; Hobi</a> |
+            <a href="kontak.html">Kontak</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="tentang">
+            <h2>Tentang Saya</h2>
+            <img src="foto-profil.jpg" alt="Foto profil formal" width="200">
+            <p>
+                Halo, saya Dionisius Tobias, siswa kelas X TIP 1 yang sedang belajar
+                pengembangan web. Saya tertarik pada desain tampilan website dan ingin
+                menjadi front-end developer.
+            </p>
+        </section>
+
+        <section id="hobi">
+            <h2>Keahlian dan Hobi</h2>
+            <ul>
+                <li>Membuat halaman web dengan HTML</li>
+                <li>Mempelajari CSS dan JavaScript</li>
+                <li>Desain grafis sederhana</li>
+                <li>Membaca buku teknologi</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Dionisius Tobias. Hak cipta dilindungi.</p>
+    </footer>
+</body>
+
+</html>
+
+kontak.html
+
+html
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hubungi Kami - Nama Lengkap Anda</title>
+</head>
+
+<body>
+    <header>
+        <h1>Hubungi Saya</h1>
+        <nav>
+            <a href="index.html">Beranda</a> |
+            <a href="kontak.html">Kontak</a>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Formulir Aspirasi</h2>
+        <form action="#" method="POST">
+            <p>
+                <label for="nama">Nama:</label><br>
+                <input type="text" id="nama" name="nama" placeholder="Masukkan nama Anda..." required>
+            </p>
+            <p>
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" placeholder="contoh: nama@email.com" required>
+            </p>
+            <p>
+                <label for="pesan">Pesan/Saran:</label><br>
+                <textarea id="pesan" name="pesan" rows="5" cols="40" placeholder="Tulis pesan atau saran Anda..."
+                    required></textarea>
+            </p>
+            <p>
+                <button type="submit">Kirim</button>
+            </p>
+        </form>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Dionisius Tobias. Hak cipta dilindungi.</p>
+    </footer>
+</body>
+
+</html>
